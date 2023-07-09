@@ -68,3 +68,54 @@
     background-color: red;
     color: white;
 }
+/* This is service section styles  */
+
+.service{
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/asset/image/footer-bg.png"),linear-gradient(45deg,rgb(97, 96, 96),rgb(27, 13, 13));
+}
+.service-text{
+    width: 650px;
+    float: left;
+    color: white;
+    margin-top: 130px;
+    margin-left: 25px;
+}
+.service-discript{
+    font-size: 18px;
+    margin: 10px 0px;
+}
+.image-sec{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+.image-sec button{
+    cursor: pointer;
+}
+.SmallBox{
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+    margin: 20px;
+
+}
+.SmallBox:hover{
+    background-color: red;
+}
+.service-img{
+    width: 140px;
+    height: 140px;
+}
+.service-container{
+    display: flex;
+    gap: 70px;
+    margin-right: 40px;
+    text-align: center;
+}
