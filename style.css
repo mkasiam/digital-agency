@@ -2,3 +2,37 @@
     margin: 0px;
     padding: 0px;
 }
+/* This is navigation bar styles  */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color:gray;
+}
+.nav-logo-img{
+    width: 180px;
+    margin-top: 10px;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    cursor: pointer; 
+}
+.menus li{
+    padding: 10px;
+}
+.menus a{
+    text-decoration: none;
+    color: white;
+}
+/* This is banner section style */
+.banner{
+    background-image: url("asset/image/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
