@@ -6,11 +6,8 @@
 .nav-container{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color:gray;
-}
-.nav-logo-img{
-    width: 180px;
-    margin-top: 10px;
 }
 .menus{
     display: flex;
@@ -31,8 +28,16 @@
 }
 /* This is banner section style */
 .banner{
-    background-image: url("asset/image/background.jpg");
+    background-image: url("asset/image/background.jpg"),linear-gradient(45deg,tomato,gray);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    margin: 0 auto;
+    width: 700px;
+ 
 }
